@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B5665A7C23CEE85F00D40045 /* Make_1 .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Make_1 .h"; sourceTree = "<group>"; };
 		DF12CD1A23C765E7007BFA2B /* BaekJoon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BaekJoon; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF12CD1D23C765E7007BFA2B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				DF12CD1D23C765E7007BFA2B /* main.cpp */,
+				B5665A7C23CEE85F00D40045 /* Make_1 .h */,
 			);
 			path = BaekJoon;
 			sourceTree = "<group>";

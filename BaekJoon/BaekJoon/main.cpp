@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "BaseConversion2 .h"
+#include "CombinedDecomposition .h"
 int main() {
     soultion();
     return 0;

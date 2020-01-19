@@ -29,6 +29,7 @@
 		B52BA85123D1A181009DB460 /* ROT13.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ROT13.h; sourceTree = "<group>"; };
 		B52BA85223D1A6F9009DB460 /* Combination0Count .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Combination0Count .h"; sourceTree = "<group>"; };
 		B52BA85323D35136009DB460 /* BaseConversion2 .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaseConversion2 .h"; sourceTree = "<group>"; };
+		B52BA85423D4487B009DB460 /* CombinedDecomposition .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CombinedDecomposition .h"; sourceTree = "<group>"; };
 		B5665A7C23CEE85F00D40045 /* Make_1 .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Make_1 .h"; sourceTree = "<group>"; };
 		DF12CD1A23C765E7007BFA2B /* BaekJoon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BaekJoon; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF12CD1D23C765E7007BFA2B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -72,6 +73,7 @@
 				B52BA85123D1A181009DB460 /* ROT13.h */,
 				B52BA85223D1A6F9009DB460 /* Combination0Count .h */,
 				B52BA85323D35136009DB460 /* BaseConversion2 .h */,
+				B52BA85423D4487B009DB460 /* CombinedDecomposition .h */,
 			);
 			path = BaekJoon;
 			sourceTree = "<group>";

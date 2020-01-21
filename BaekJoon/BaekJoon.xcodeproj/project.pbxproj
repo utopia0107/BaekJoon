@@ -33,6 +33,7 @@
 		B52BA85523D459D5009DB460 /* Add1_2_3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Add1_2_3.h; sourceTree = "<group>"; };
 		B5665A7C23CEE85F00D40045 /* Make_1 .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Make_1 .h"; sourceTree = "<group>"; };
 		B582143023D48BB000205D06 /* WineTasting  .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WineTasting  .h"; sourceTree = "<group>"; };
+		B5B6438823D5C8D000A01D26 /* 11722.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 11722.h; sourceTree = "<group>"; };
 		DF12CD1A23C765E7007BFA2B /* BaekJoon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BaekJoon; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF12CD1D23C765E7007BFA2B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +79,7 @@
 				B52BA85423D4487B009DB460 /* CombinedDecomposition .h */,
 				B52BA85523D459D5009DB460 /* Add1_2_3.h */,
 				B582143023D48BB000205D06 /* WineTasting  .h */,
+				B5B6438823D5C8D000A01D26 /* 11722.h */,
 			);
 			path = BaekJoon;
 			sourceTree = "<group>";

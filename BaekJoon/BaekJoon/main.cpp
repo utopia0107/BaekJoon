@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "WineTasting  .h"
+#include "11722.h"
 int main() {
     soultion();
     return 0;

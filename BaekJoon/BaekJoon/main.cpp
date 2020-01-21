@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "11722.h"
+#include "1026.h"
 int main() {
     soultion();
     return 0;

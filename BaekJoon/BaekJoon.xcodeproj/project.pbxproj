@@ -38,6 +38,7 @@
 		B5B6438823D5C8D000A01D26 /* 11722.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 11722.h; sourceTree = "<group>"; };
 		B5C111AD23D86C63004410C7 /* 1991.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 1991.h; sourceTree = "<group>"; };
 		B5FF696523D9616A00A443A7 /* 11725.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 11725.h; sourceTree = "<group>"; };
+		B5FF696623D9662200A443A7 /* 1167.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 1167.h; sourceTree = "<group>"; };
 		DF12CD1A23C765E7007BFA2B /* BaekJoon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BaekJoon; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF12CD1D23C765E7007BFA2B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +89,7 @@
 				B5325C2923D7253F00C8C575 /* 1026.h */,
 				B5325C2A23D727AC00C8C575 /* 11652.h */,
 				B5C111AD23D86C63004410C7 /* 1991.h */,
+				B5FF696623D9662200A443A7 /* 1167.h */,
 			);
 			path = BaekJoon;
 			sourceTree = "<group>";

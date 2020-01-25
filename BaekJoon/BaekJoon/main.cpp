@@ -7,8 +7,8 @@
 //
 
 #include <iostream>
-#include "4963.h"
+#include "11047.h"
 int main() {
-    soultion();
+    solution();
     return 0;
 }

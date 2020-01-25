@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "11047.h"
+#include "10974.h"
 int main() {
     solution();
     return 0;

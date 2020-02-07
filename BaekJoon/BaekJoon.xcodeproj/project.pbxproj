@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		B50D317D23E31AC400193DA9 /* 1707.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 1707.h; sourceTree = "<group>"; };
 		B50D317E23E3D5D500193DA9 /* 11723.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 11723.h; sourceTree = "<group>"; };
+		B512826C23EDA801008DCAF8 /* 14500.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 14500.h; sourceTree = "<group>"; };
 		B52160C823E6C17F00B27515 /* 2873.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 2873.h; sourceTree = "<group>"; };
 		B52160CA23E805CF00B27515 /* 1463.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 1463.h; sourceTree = "<group>"; };
 		B52160CB23E8093200B27515 /* 14501.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 14501.h; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 		DF12CD1C23C765E7007BFA2B /* BaekJoon */ = {
 			isa = PBXGroup;
 			children = (
+				B512826C23EDA801008DCAF8 /* 14500.h */,
 				B5FF696523D9616A00A443A7 /* 11725.h */,
 				DF12CD1D23C765E7007BFA2B /* main.cpp */,
 				B5665A7C23CEE85F00D40045 /* Make_1 .h */,

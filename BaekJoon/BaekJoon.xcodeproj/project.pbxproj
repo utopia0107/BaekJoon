@@ -55,6 +55,7 @@
 		B5615DDD23F19B9B00A12491 /* 2629.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 2629.h; sourceTree = "<group>"; };
 		B5665A7C23CEE85F00D40045 /* Make_1 .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Make_1 .h"; sourceTree = "<group>"; };
 		B582143023D48BB000205D06 /* WineTasting  .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WineTasting  .h"; sourceTree = "<group>"; };
+		B588AB1324015E1700921FBA /* 2869.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 2869.h; sourceTree = "<group>"; };
 		B5A73A1123EAAC9B003C2486 /* 2163.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 2163.h; sourceTree = "<group>"; };
 		B5A73A1223EAB50F003C2486 /* 1010.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 1010.h; sourceTree = "<group>"; };
 		B5B6438823D5C8D000A01D26 /* 11722.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 11722.h; sourceTree = "<group>"; };
@@ -144,6 +145,7 @@
 				B5265F8E23EFA96300185913 /* 9019.h */,
 				B5615DDD23F19B9B00A12491 /* 2629.h */,
 				B506269F23F5855100D60F33 /* 2661.h */,
+				B588AB1324015E1700921FBA /* 2869.h */,
 			);
 			path = BaekJoon;
 			sourceTree = "<group>";

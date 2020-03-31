@@ -1,13 +1,13 @@
 //
-//  15664.h
+//  15665.h
 //  BaekJoon
 //
 //  Created by 정민수 on 2020/03/31.
 //  Copyright © 2020 Minsu Jeong. All rights reserved.
 //
 
-#ifndef _5664_h
-#define _5664_h
+#ifndef _5665_h
+#define _5665_h
 #include<iostream>
 #include<algorithm>
 #include <set>
@@ -15,11 +15,10 @@
 using namespace  std;
 int nums[8];
 int path[8];
-bool visited[8];
 int depth;
 int N,M;
 set<string> num_set;
-void DFS(int index)
+void DFS()
 {
     if(depth==M)
     {
@@ -35,17 +34,12 @@ void DFS(int index)
         }
         return;
     }
-    for(int i=index;i<N;i++)
+    for(int i=0;i<N;i++)
     {
-        if(!visited[i])
-        {
-            path[depth]=nums[i];
-            visited[i]=true;
-            depth++;
-            DFS(i);
-            depth--;
-            visited[i]=false;
-        }
+        path[depth]=nums[i];
+        depth++;
+        DFS();
+        depth--;
     }
 }
 
@@ -57,8 +51,8 @@ void solution()
         cin>>nums[i];
     }
     sort(nums,nums+N);
-    DFS(0);
+    DFS();
 }
 
 
-#endif /* _5664_h */
+#endif /* _5665_h */

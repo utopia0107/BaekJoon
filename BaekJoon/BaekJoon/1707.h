@@ -11,55 +11,68 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-vector<int> v[20001];
-int visitedCnt[20001];
-bool bBinaryTree=true;
-
-void DFS(int index,int case_num){
-    if(visitedCnt[index]==0){
-        visitedCnt[index]=case_num;
-    }
-    for(int i=0;i<v[index].size();i++){
-        if(visitedCnt[v[index][i]]==0) {
-            DFS(v[index][i],case_num*-1);
-        }else if(case_num*-1 != visitedCnt[v[index][i]]){
-            bBinaryTree=false;
-            return;
+vector<int> edges[20001];
+int nodesDepth[20001];
+bool visited[20001];
+bool isBinaryGrahp=true;
+void DFS(int curNode,int depth)
+{
+    nodesDepth[curNode]=depth;
+    for(int i=0;i<edges[curNode].size();i++)
+    {
+        int nextNode=edges[curNode][i];
+        if(!visited[nextNode])
+        {
+            visited[nextNode]=true;
+            DFS(nextNode,depth+1);
         }
     }
 }
 void solution()
 {
-    int t;
-    int vertex1,vertex2;
-    int vertexCnt,edgeCnt;
-    cin>>t;
-    while(t--)
+    int k;
+    cin>>k;
+    while(k--)
     {
-        cin>>vertexCnt>>edgeCnt;
-        for(int i=0;i<edgeCnt;i++)
+        int V,E;
+        cin>>V>>E;
+        for(int i=0;i<E;i++)
         {
-            cin>>vertex1>>vertex2;
-            v[vertex1].push_back(vertex2);
-            v[vertex2].push_back(vertex1);
+            int node1,node2;
+            cin>>node1>>node2;
+            edges[node1].push_back(node2);
+            edges[node2].push_back(node1);
         }
-        for(int i=1;i<=vertexCnt;i++)
+        for(int i=1;i<=V;i++)
         {
-            if(visitedCnt[i]==0)
+            if(!visited[i])
             {
-                DFS(i,1);
+                visited[i]=true;
+                DFS(i,0);
             }
         }
-        if(bBinaryTree)  cout<<"YES\n";
-        else cout<<"NO\n";
-        
-        bBinaryTree=true;
-        for(int i=0;i<=vertexCnt;i++)
+        for(int i=1;i<=V;i++)
         {
-            v[i].clear();
-            visitedCnt[i]=0;
+            for(int j=0;j< edges[i].size();j++)
+            {
+                if(nodesDepth[i]%2==nodesDepth[edges[i][j]]%2)
+                {
+                    isBinaryGrahp=false;
+                    break;
+                }
+            }
+            if(!isBinaryGrahp)break;
         }
+        if(isBinaryGrahp)cout<<"YES\n";
+        else cout<<"NO\n";
+        //reset
+        for(int i=1;i<=V;i++)
+        {
+            nodesDepth[i]=0;
+            visited[i]=false;
+            edges[i].clear();
+        }
+        isBinaryGrahp=true;
     }
 }
-
 #endif /* _707_h */

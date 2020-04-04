@@ -190,8 +190,8 @@
             filePath = "BaekJoon/14502.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
             landmarkName = "solution()"
             landmarkType = "9">
          </BreakpointContent>

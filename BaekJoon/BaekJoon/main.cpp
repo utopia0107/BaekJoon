@@ -8,7 +8,7 @@
 
 #include <iostream>
 
-#include "14226.h"
+#include "11726.h"
 int main() {
     solution();
     return 0;

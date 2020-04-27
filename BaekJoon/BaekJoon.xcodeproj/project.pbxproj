@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B503739D2456BF0E0088FA37 /* 6236.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 6236.h; sourceTree = "<group>"; };
 		B506269F23F5855100D60F33 /* 2661.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 2661.h; sourceTree = "<group>"; };
 		B50C6EDE243703BD003B29B7 /* 15685.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 15685.h; sourceTree = "<group>"; };
 		B50C6EDF24371557003B29B7 /* 3190.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 3190.h; sourceTree = "<group>"; };
@@ -252,6 +253,7 @@
 				B5790B212450052200B73289 /* 1912.h */,
 				B5740FC82456A95000F22C57 /* 2805.h */,
 				B5740FC92456AACD00F22C57 /* 1072.h */,
+				B503739D2456BF0E0088FA37 /* 6236.h */,
 			);
 			path = BaekJoon;
 			sourceTree = "<group>";

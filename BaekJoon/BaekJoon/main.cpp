@@ -8,7 +8,7 @@
 
 #include <iostream>
 
-#include "3079.h"
+#include "2792.h"
 int main() {
     solution();
     return 0;

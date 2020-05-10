@@ -113,6 +113,7 @@
 		B5DAD6D32467FA520089A3C9 /* 2630.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 2630.h; sourceTree = "<group>"; };
 		B5DAD6D4246807730089A3C9 /* 2606.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 2606.h; sourceTree = "<group>"; };
 		B5DAD6D524680B520089A3C9 /* 18870.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 18870.h; sourceTree = "<group>"; };
+		B5DAD6D624681B7E0089A3C9 /* 1927.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 1927.h; sourceTree = "<group>"; };
 		B5DC642D24594A6E00FA36E2 /* 2872.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 2872.h; sourceTree = "<group>"; };
 		B5DC642E24595CC500FA36E2 /* 2110.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 2110.h; sourceTree = "<group>"; };
 		B5DC642F2459608800FA36E2 /* 2343.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 2343.h; sourceTree = "<group>"; };
@@ -274,6 +275,7 @@
 				B5DAD6D32467FA520089A3C9 /* 2630.h */,
 				B5DAD6D4246807730089A3C9 /* 2606.h */,
 				B5DAD6D524680B520089A3C9 /* 18870.h */,
+				B5DAD6D624681B7E0089A3C9 /* 1927.h */,
 			);
 			path = BaekJoon;
 			sourceTree = "<group>";

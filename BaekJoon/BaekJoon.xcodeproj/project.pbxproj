@@ -58,6 +58,7 @@
 		B52BA85423D4487B009DB460 /* CombinedDecomposition .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CombinedDecomposition .h"; sourceTree = "<group>"; };
 		B52BA85523D459D5009DB460 /* Add1_2_3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Add1_2_3.h; sourceTree = "<group>"; };
 		B52BD43823EC4B2E006B62D7 /* 1759.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 1759.h; sourceTree = "<group>"; };
+		B52DB4932474009C00CB4864 /* 2167.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 2167.h; sourceTree = "<group>"; };
 		B5325C2923D7253F00C8C575 /* 1026.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 1026.h; sourceTree = "<group>"; };
 		B5325C2A23D727AC00C8C575 /* 11652.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 11652.h; sourceTree = "<group>"; };
 		B537E62D23DC4B7C0030FE31 /* 11047.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 11047.h; sourceTree = "<group>"; };
@@ -304,6 +305,7 @@
 				B5EBA3EE2472476A006755E1 /* 1672.h */,
 				B5EBA3EF24724FE7006755E1 /* 1464.h */,
 				B5EBA3F02472547F006755E1 /* 1439.h */,
+				B52DB4932474009C00CB4864 /* 2167.h */,
 			);
 			path = BaekJoon;
 			sourceTree = "<group>";

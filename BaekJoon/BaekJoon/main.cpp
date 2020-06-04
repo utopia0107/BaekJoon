@@ -7,8 +7,7 @@
 //
 
 #include <iostream>
-
-#include "2467.h"
+#include "2056.h"
 int main() {
     solution();
     return 0;
